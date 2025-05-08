@@ -219,7 +219,7 @@ spec:
           - name: COPY_FROM_PATH
             value: environments/dev
           - name: COPY_TO_PATH
-            value: environments/stage
+            value: environments/uat
         workspaces:
         - name: workspace
           workspace: source
